@@ -1,0 +1,30 @@
+body {
+
+	font-family: 'Lato';
+	color: #747704;
+	font-weight: 300;
+}
+
+.text-thing {
+
+	font-weight: 100;
+}
+
+@media screen and (max-width: 1000px) {
+	.col-md-4 > p {
+		display: none;
+
+	}
+
+	.col-md-12 > h1 {
+
+		position: inherit;
+	}
+
+	.col-md-4 > h3 {
+		margin-top: 5px;
+		font-size: 18px
+
+	}
+
+}
